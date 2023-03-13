@@ -1,0 +1,234 @@
+.bannerBox {
+  width: 100%;
+  height: 900px;
+  background: url(../images/banner.png) no-repeat;
+  background-size: 100%;
+}
+.bannerBox .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1383px;
+  height: 100px;
+  margin: 0 auto;
+}
+.bannerBox .header .logo img {
+  margin-top: 30px;
+}
+.bannerBox .header .logo span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.bannerBox .header .logo span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+}
+.bannerBox .header .design {
+  margin-top: 35px;
+}
+.bannerBox .header .design span {
+  padding: 10px 20px;
+  background-color: #a8875b;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.bannerBox h2 {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+  font-size: 50px;
+}
+.bannerBox h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 70px;
+}
+.bannerBox p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 26px;
+}
+.bannerBox p span {
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: #d38e34;
+  color: #fff;
+  text-align: center;
+}
+.recommend {
+  width: 100%;
+}
+.recommend .title {
+  width: 1383px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.recommend .scheme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1383px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.recommend .scheme .left,
+.recommend .scheme .right {
+  width: 670px;
+  height: 767px;
+}
+.recommend .scheme .left .b_img,
+.recommend .scheme .right .b_img {
+  position: relative;
+  width: 670px;
+  height: 473px;
+}
+.recommend .scheme .left .b_img a,
+.recommend .scheme .right .b_img a {
+  display: block;
+}
+.recommend .scheme .left .b_img a p,
+.recommend .scheme .right .b_img a p {
+  width: 670px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+.recommend .scheme .left .b_img a p span:nth-of-type(2),
+.recommend .scheme .right .b_img a p span:nth-of-type(2) {
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+.recommend .scheme .left .b_img a p span:nth-of-type(2) img,
+.recommend .scheme .right .b_img a p span:nth-of-type(2) img {
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+}
+.recommend .scheme .left .s_img,
+.recommend .scheme .right .s_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 670px;
+  margin-top: 27px;
+}
+.recommend .scheme .left .s_img div,
+.recommend .scheme .right .s_img div {
+  width: 320px;
+  height: 267px;
+}
+.ModelLibrary {
+  width: 100%;
+  background-color: #e7e8ea;
+  margin-top: 40px;
+}
+.ModelLibrary .title {
+  width: 1383px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.ModelLibrary .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1383px;
+  margin: 0 auto;
+}
+.ModelLibrary .content .pic {
+  position: relative;
+  width: 670px;
+  height: 424px;
+  background-color: skyblue;
+  margin-top: 20px;
+}
+.ModelLibrary .content .pic .poAo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 650px;
+  bottom: 10px;
+  left: 0;
+  padding: 0 10px;
+}
+.ModelLibrary .content .pic .poAo .zuo p:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.ModelLibrary .content .pic .poAo .zuo p:nth-of-type(2) span {
+  font-size: 12px;
+  color: #ff8f0b;
+  background-color: #fbdab0;
+  border-radius: 20px;
+  padding: 1px 5px;
+  margin-right: 5px;
+}
+.ModelLibrary .content .pic .poAo .you {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ModelLibrary .content .pic .poAo .you a {
+  display: block;
+  width: 82px;
+  height: 61px;
+  background-color: #dbd6d6;
+  margin-left: 10px;
+}
+.ModelLibrary .content .pic .poAo .you a img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+footer {
+  width: 100%;
+  background-color: #e7e8ea;
+  padding-top: 100px;
+}
+footer .navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1383px;
+  height: 120px;
+  border-top: 1px solid gray;
+  margin: 0 auto;
+}
+footer .navList li {
+  margin-top: 30px;
+}
+footer .navList li span {
+  line-height: 60px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+footer .bottom {
+  width: 100%;
+  background-color: black;
+  padding: 40px 0;
+}
+footer .bottom p {
+  color: #fff;
+  text-align: center;
+}

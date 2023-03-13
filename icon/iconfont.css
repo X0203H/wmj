@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3946186 */
+  src: url('iconfont.woff2?t=1678637569811') format('woff2'),
+       url('iconfont.woff?t=1678637569811') format('woff'),
+       url('iconfont.ttf?t=1678637569811') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aixin:before {
+  content: "\e8ab";
+}
+
+.icon-zhangdan-wancheng_o:before {
+  content: "\eba4";
+}
+
+.icon-renqiredu:before {
+  content: "\e708";
+}
+
+.icon-fenxiang:before {
+  content: "\e601";
+}
+
+.icon-shouji:before {
+  content: "\e600";
+}
+
+.icon-position:before {
+  content: "\e60b";
+}
+
+.icon-xiangxiajiantou:before {
+  content: "\e65e";
+}
+
+.icon-shangxiajiantou:before {
+  content: "\e6b7";
+}
+
+.icon-xiangxiajiantoucuxiao:before {
+  content: "\e8c8";
+}
+
+.icon-xiangyou-jiantou:before {
+  content: "\e779";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e65f";
+}
+
+.icon-sheji-xianxing:before {
+  content: "\e920";
+}
+
+.icon-gouwuche-tianchong:before {
+  content: "\e70c";
+}
+
+.icon-jurassic_user:before {
+  content: "\e6a4";
+}
+

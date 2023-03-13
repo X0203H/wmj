@@ -1,0 +1,110 @@
+nav .nav .left span:nth-of-type(1) {
+  position: relative;
+}
+nav .nav .left span:nth-of-type(1)::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 42px;
+  height: 2px;
+  background-color: #bca382;
+}
+nav .nav .left span:nth-of-type(2)::after {
+  content: "";
+  width: 42px;
+  height: 0px;
+  background-color: #bca382;
+}
+.main h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 70px;
+}
+.main .select {
+  position: relative;
+  width: 1177px;
+  height: 23px;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+}
+.main .select::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 467px;
+  height: 2px;
+  background-color: #b4b4b4;
+}
+.main .select::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 467px;
+  height: 2px;
+  background-color: #b4b4b4;
+}
+.main .List {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1383px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.main .List li {
+  display: flex;
+  width: 662px;
+  height: 343px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-bottom: 30px;
+}
+.main .List li .right {
+  width: 160px;
+}
+.main .List li .right img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main .List li .right p {
+  text-align: center;
+  margin-top: 20px;
+}
+.main .List li .right p span {
+  padding: 5px 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: gray;
+  font-size: 16px;
+}
+.main .List li .right p span:hover {
+  background-color: #d83030;
+  color: #fff;
+}
+.main .navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1383px;
+  height: 120px;
+  border-top: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.main .navList li {
+  margin-top: 30px;
+}
+.main .navList li span {
+  line-height: 60px;
+  font-size: 30px;
+  margin-left: 10px;
+}

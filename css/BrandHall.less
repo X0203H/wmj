@@ -1,0 +1,126 @@
+nav {
+  .nav {
+    .left {
+      span {
+        &:nth-of-type(1) {
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 42px;
+            height: 2px;
+            background-color: #bca382;
+          }
+        }
+        &:nth-of-type(2) {
+          &::after {
+            content: "";
+            width: 42px;
+            height: 0px;
+            background-color: #bca382;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main {
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 70px;
+  }
+  .select {
+    position: relative;
+    width: 1177px;
+    height: 23px;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 467px;
+      height: 2px;
+      background-color: #b4b4b4;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      width: 467px;
+      height: 2px;
+      background-color: #b4b4b4;
+    }
+  }
+
+  .List {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1383px;
+    margin: 0 auto;
+    // background-color: skyblue;
+    margin-top: 60px;
+    li {
+      display: flex;
+      width: 662px;
+      height: 343px;
+      background-color: #fff;
+      box-shadow: 1px 1px 5px #ccc;
+      margin-bottom: 30px;
+      .right {
+        width: 160px;
+        img {
+          display: block;
+          margin: 0 auto;
+          margin-top: 50px;
+        }
+        p {
+          text-align: center;
+          margin-top: 20px;
+          span {
+            padding: 5px 20px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            color: gray;
+            font-size: 16px;
+            &:hover {
+              background-color: #d83030;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1383px;
+    height: 120px;
+    border-top: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 150px;
+    li {
+      margin-top: 30px;
+      span {
+        line-height: 60px;
+        font-size: 30px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
